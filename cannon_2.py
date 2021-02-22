@@ -49,6 +49,7 @@ RED = (255,0,0)
 BLUE = (0,0,255)
 
 screen = pygame.display.set_mode((400,400))
+pygame.display.set_caption("CANNON GAME")
 screen_width,screen_height = pygame.display.get_surface().get_size()
 
 clock = pygame.time.Clock()
